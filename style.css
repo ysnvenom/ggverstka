@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: #F5F7FA;
+}
+
+a {
+    text-decoration: none;
+    color: #18191F;
+    font-size: 16px;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.container {
+    padding: 0px 144px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.logo {
+    width: 154px;
+}
+
+.nav {
+    height: 84px;
+    padding: 12px 144px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    border-end-start-radius: 15px;
+    border-end-end-radius: 15px;
+}
+
+.nav img {
+    text-align: left;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+}
+
+.head-page {
+    background: #F5F7FA;
+    height: 599px;
+    padding: 96px 130px;
+    display: flex;
+}
+
+.head-page h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: #4CAF4F;
+}
+
+.head-page p {
+    margin-bottom: 32px;
+    color: #717171;
+}
+
+.head-page img {
+    width: 391px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-block {
+    padding-right: 104px;
+    padding-top: 140px;   
+}
+
+span {
+    color: #4d4d4d;
+}
+
+.one {
+    margin-right: 14px;
+    background: #F5F7FA;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #4CAF4F;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.two {
+    background: #4CAF4F;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 128px;
+    height: 52px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: #4CAF4F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.one:hover {
+    background: black;
+    color: white;
+}
+
+.two:hover {
+    background: black;
+    color: white;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+.clients {
+    padding: 40px 144px;
+    background: white;
+    height: 190px;
+    margin-bottom: 3000px;
+}
+
+.text {
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+}
+
+.text h2 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.cl {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1463px) {
+    .head-page {
+        display: block;
+    }
+}
